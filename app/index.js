@@ -6,8 +6,12 @@ import { Router, Route, browserHistory } from 'react-router'
 import { syncHistoryWithStore, routerReducer } from 'react-router-redux'
 
 
-import { Main, Foo, Bar } from './components'
 import reducers from './reducers'
+
+import Main from './containers/main'
+import Foo from './components/foo'
+import Bar from './components/bar'
+
 
 const store = createStore(
   combineReducers({
