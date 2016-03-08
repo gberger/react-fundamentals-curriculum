@@ -5,6 +5,17 @@ export default (props) => {
   return (
     <div>
       <header>
+        <h1>My First React App</h1>
+      </header>
+      <div>
+        {props.children}
+      </div>
+    </div>
+  )
+
+  return (
+    <div>
+      <header>
         Links:
         {' '}
         <Link to="/">Home</Link>
